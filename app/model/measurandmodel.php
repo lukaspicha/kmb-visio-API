@@ -13,7 +13,7 @@ namespace app\model;
 		}
 
 		public function getUnit() {
-			return $this->db_$row->unit;
+			return $this->db_row->unit;
 		}
 
 	}

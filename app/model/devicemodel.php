@@ -13,7 +13,7 @@ namespace app\model;
 		}
 
 		public function getHash() {
-			return $this->db_$row->hash;
+			return $this->db_row->hash;
 		}
 
 	}
