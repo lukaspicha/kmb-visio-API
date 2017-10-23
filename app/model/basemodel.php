@@ -31,6 +31,10 @@ namespace app\model;
 			
 		}
 
+		public function getId($id) {
+			return $this->db_row->id;
+		}
+
 		public  function __toString() {
 			return json_encode($this->db_row);
 		}
